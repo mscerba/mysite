@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Layout stránky</title>
+	<link rel="stylesheet" href="{% static 'css/style_priklad_11.css' %}" type="text/css">
+</head>
+<body>
+	<a href="{% url 'index' %}">Domů</a>
+	<h1>Toto bude layout stránky</h1>
+
+	<div id="wrapper" class="group frame">
+		<aside class="pullquote float-left frame">
+			<q>Dragée I love soufflé tiramisu sugar plum. offee gummies dragée I love.</q>
+		</aside>
+		<aside class="pullquote float-left frame">
+			<q>Dragée I love soufflé tiramisu sugar plum. offee gummies dragée I love.</q>
+		</aside>
+		<aside class="pullquote float-left frame">
+			<q>Dragée I love soufflé tiramisu sugar plum. offee gummies dragée I love.</q>
+		</aside>
+	</div>
+	<h3>Vizuální layout stránky</h3>
+	<div id="wrapper" class="group layout">
+		<header>
+			<code>&ltheader&gt</code>
+		</header>
+		<div class="group">
+			<section>
+				<code>&ltsection&gt</code>
+			</section>
+			<aside>
+				<code>&ltaside&gt</code>
+			</aside>
+			<aside>
+				<code>&ltaside&gt</code>
+			</aside>
+		</div>
+		<footer>
+			<code>&ltfooter&gt</code>
+		</footer>
+	</div>
+</body>
+</html>

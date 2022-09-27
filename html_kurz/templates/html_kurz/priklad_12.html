@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Dopetrope</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap')">
+	<link rel="stylesheet" href="{% static 'css/style_priklad_12.css' %}" type="text/css">
+</head>
+<body>
+	<header>
+		<h1><a href="{% url 'index' %}">Dopetrope</a></h1>
+		<nav>
+			<ul class="menu">
+				<li><a href="">Home</a></li>
+				<li><a href="">Dropdown</a></li>
+				<li><a href="">Left Sidebar</a></li>
+				<li><a href="">Right Sidebar</a></li>
+				<li><a href="">No sidebar</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="main" class="group">
+			<article>
+				<img src="{% static 'html_kurz/pic01.jpeg' %}" width="850px" alt="">
+				<div class="content">
+					<h1>Right sidebar</h1>
+					<h2>Lorem ipsum dolor sit amet feugiat</h2>
+					<p>
+						Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo. Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante. Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.
+					</p>
+					<p>
+						Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl, a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.
+					</p>
+					<h3>Something else</h3>
+					<p>
+						Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.
+					</p>
+					<p>
+						Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.
+					</p>
+					<h3>So in conclusion ...</h3>
+					<p>
+						Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
+					</p>
+				</div>
+			</article>
+
+			<aside>
+				<img src="{% static 'html_kurz/pic02.jpeg' %}" width="420px" alt="">
+				<div class="block-aside">
+					<h1>Sed atiam lorem nulla</h1>
+					<p>
+						Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.
+					</p>
+					<a href="" class="aside-button">Magna sed taciti</a>
+				</div>
+			</aside>
+			<aside>
+				<div class="block-aside">
+					<h1>Feugiat consequat</h1>
+					<p>
+						Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.
+					</p>
+					<ul>
+						<li><a href="">Sed et blandit consequat sed</a></li>
+						<li><a href="">Hendrerit tortor vitae sapien dolore</a></li>
+						<li><a href="">Sapien id suscipit magna sed felis</a></li>
+						<li><a href="">Aptent taciti sociosqu ad litora</a></li>
+					</ul>
+					<a href="" class="aside-button">Ipsum consequat</a>
+				</div>
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<p>
+			made with words
+		&nbsp;&nbsp;
+		&copy; 2022
+		</p>
+	</footer>
+
+
+</body>
+</html>

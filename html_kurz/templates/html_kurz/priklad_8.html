@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Příklad 8</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+	<link rel="stylesheet" href="{% static 'css/style_priklad_8.css' %}" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<a href="{% url 'index' %}" class="align-left-home">> Domů</a>
+		<h1>Curriculum Vitae</h1>
+		<h2>Get to know where I've proven my skills</h2>
+		<img src="{% static 'html_kurz/man.jpg' %}" alt="" class="img-circle">
+
+		<section class="align-left">
+			<block>
+				<div>
+					<h3>Master Of Web Design</h3>
+					<h4>St. Patrick University (2 Years Course)</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aspernatur deleniti dolore
+						dolorum, est ex expedita fuga incidunt laborum numquam odit.
+					</p>
+				</div>
+				<hr>
+				<div>
+					<h3>Degree Of Web Developers</h3>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+				</div>
+			</block>
+		</section>
+		<section class="align-left">
+				<block>
+					<div>
+						<h3>Front-End Developer</h3>
+						<h4>Black Tie Corp</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aspernatur deleniti dolore
+							dolorum, est ex expedita fuga incidunt laborum numquam odit.Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Accusamus amet aspernatur deleniti dolore dolorum, est ex expedita
+							fuga incidunt laborum numquam odit.
+						</p>
+					</div>
+					<hr>
+					<div>
+						<h3>Web Designer - Inern</h3>
+						<h4>Onassis Ltd.</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit incidunt laborum numquam odisfdkke ki,
+							dolorum, est ex expedita fuga incidunt laborum numquam odit.Lorem ipsum dolor sit amet,
+							consectetur adipisicing elit. Accusamus amet aspernatur deleniti dolore dolorum, est ex expedita
+							fuga incidunt laborum numquam odit.
+						</p>
+					</div>
+				</block>
+			</section>
+			<div class="align-left">
+				<a href="">Download My Cv</a>
+			</div>
+		</div>
+
+
+</body>
+</html>

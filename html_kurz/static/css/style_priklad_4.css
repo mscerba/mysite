@@ -1,0 +1,84 @@
+body,
+html {
+	margin: 0;
+	background: #00bdbd;
+}
+
+body {
+	color: #fff;
+	width: 600px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 50px;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px auto;
+}
+
+.podnadpis {
+	text-align:center;
+}
+
+.align-left {
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+}
+
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 0px 0px 6px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: left;
+}
+
+h4 {
+	text-align: left;
+	margin: 0px;
+	padding: 0px 0px 22px;
+
+}
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	line-height: 21px;
+	font-weight: 400;
+	padding-bottom: 22px;
+	margin: 0px;
+}
+
+.btnDownload {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background: #474d5d;
+	padding: 16px 22px;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+
+.img_circle {
+	border-radius: 50%;
+}

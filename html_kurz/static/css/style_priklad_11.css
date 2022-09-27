@@ -1,0 +1,78 @@
+aside.frame {
+	outline: 2px solid red;
+}
+
+body {
+	color: #222;
+	font: 18px/30px Georgia, serif;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper.frame {
+	outline: 3px solid green;
+	background: #FFFDC9;
+}
+
+.float-left {
+	float: left;
+}
+
+.pullquote {
+	color: #787878;
+	max-width: 300px;
+}
+
+.pullquote.float-left {
+	margin: 24px 34px 24px 0;
+}
+
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+
+code {
+	color: #fff;
+	background: #9F3FA3;
+	display: block;
+	padding: 25px;
+	font: 14px/24px Monaco, Consolas, "Lucida Console", monospace;
+	border-radius: 6px;
+	text-align: center;
+}
+
+#wrapper.layout {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#wrapper.layout header,
+#wrapper.layout section,
+#wrapper.layout aside,
+#wrapper.layout footer {
+	margin: 0 0 25px;
+}
+
+#wrapper section {
+	float: left;
+	width: 425px;
+}
+
+#wrapper aside {
+	float: right;
+	width: 250px;
+}
+
+

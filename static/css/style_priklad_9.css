@@ -1,0 +1,64 @@
+body,
+html {
+	margin: 0px;
+}
+
+body {
+	color: #fff;
+	background: #8FD2D1;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+	width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 76px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 23px;
+	font-weight:300;
+}
+
+.btn {
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 272px;
+	color: #fff;
+	background: #F27367;
+	display: inline-block;
+	border: 1px solid #E33434;
+	border-radius: 4px;
+	padding: 19px 8px 19px 8px;
+	margin: 20px 0px;
+	text-decoration: none;
+}
+
+
+p {
+	font-size: 13px;
+	margin: Opx;
+}
+
+.menu {
+	background: #fff;
+	padding: 10px 10px;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+.menu li,
+.menu a {
+	color: #000;
+	display:inline-block;
+	text-decoration: none;
+	padding: 7px 10px
+}
+

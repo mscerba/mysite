@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Můj recept</title>
+	<style>
+		body {
+			width: 600px;
+		}
+	</style>
+</head>
+<body>
+	{% load static %}
+	<a href="{% url 'index' %}">Domů</a>
+	<h1>Vídeňský řízek se smetanovou kaší</h1>
+	<p>
+		Uvaříme si takovou klasiku a to šťavnatý do křupava lahodný Vídeňský řízek, smažený na přepuštěném másle.
+		Jako přílohu si uděláme bramoborovou kaši se smetanou. Je to obrvoská mňamka, tak neváhejte a vyzkoušejte.
+		Přibližná doba přípravy je 45 min.
+	</p>
+	<a href="{% static '/html_kurz/vidensky_rizek_big.jpeg' %}" target="_blank">
+		<img src="{% static '/html_kurz/vidensky_rizek.jpeg' %}" alt='' title="Vídeňský řízek s bramborovou kaší">
+	</a>
+
+	<h2>Suroviny</h2>
+	<ul>
+		<li>600g telecí kýta</li>
+		<li>sůl dle chuti</li>
+		<li>pepř mletý dle chuti</li>
+		<li>hladká mouka na obalení</li>
+		<li>2 ks vejce</li>
+		<li>strouhanka na obalení</li>
+		<li>máslo přepuštěné na smažení</li>
+		<li>1 ks citrón</li>
+		<li>1 kg brambory typ C</li>
+		<li>200 ml smetana 12%</li>
+		<li>100 g máslo k podávání</li>
+	</ul>
+
+	<h2>Postup přípravy receptu</h2>
+	<ol>
+		<li>
+			<p>
+				Maso nakrájejte na plátky silné asi 3 cm. Plátky prořízněte tak, abyste je mohli rozevřít jako knihu.
+				Naklepejte je dotenka a nožem nařízněte blanky na okrajích, aby se řízek během smažení nekroutil.<br>
+				<strong>RADA: <a href="https://magazin.recepty.cz/clanky/smazeny-rizek-recept-a-triky-profesionalu-jak-pripravit-ten-nejlepsi-znate-je-527.html" target="_blank">Jak připravit ten nejlepší řízek</a></strong>
+			</p>
+		</li>
+		<li>
+			<p>
+				Maso z obou stran osolte a opepřete. Obalte je v klasickém trojobalu: nejprve v mouce,
+				poté v rozšlehaných vajíčkách a nakonec ve strouhance, tu zlehka k masu přimáčkněte, aby
+				při smažení neopadávala.
+			</p>
+		</li>
+		<li>
+			<p>
+				Přepuštěné máslo rozehřejte v pánvi a řízky v něm z obou stran pozvolna smažte dozlatova,
+				asi 3 minuty z každé strany.
+			</p>
+		</li>
+		<li>
+			<p>
+				Hotový řízek položte na papírovou utěrku či ubrousek a odsajte přebytečný tuk.
+				Podávejte s citronem na dochucení a bramborovou kaší.
+			</p>
+		</li>
+		<li>
+			<p>
+				Kaše: Brambory oloupejte, pokrájejte na menší kusy a vařte v osolené vodě 20 minut.
+				Slijte je a rozšťouchejte, pak metličkou rozšlehejte. Mezitím ohřejte smetanu.
+				Do horkých brambor vhoďte máslo a přilévejte smetanu a šlehejte tak dlouho,
+				dokud kaše nebude jemná a hladká. Podávejte ji k řízku přelitou rozpuštěným máslem.<br>
+				<strong>RADA: <a href="https://magazin.recepty.cz/clanky/jak-na-bramborovou-kasi-recept-a-video-postup-krok-za-krokem-327.html" target="_blank">Jak na bramborovou kaši</a><strong>
+			</p>
+		</li>
+	</ol>
+
+	<p>
+		<em>Recept pro vás připravil časopis F.O.O.D</em>
+	</p>
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Moje první stránka HTML v Djangu</title>
+	<style>
+		body {
+		 width: 600px;
+		 }
+	</style>
+</head>
+<body>
+	<h1 id = "nahoru">Toto je moje nová stránka</h1>
+	<p>Zde budu mít odkazy na všechny moje projekty, které jsem dělal vrámci kurzu HTML, CSS.</p>
+	<h2>Projekty HTML, CSS</h2>
+
+	<ol>
+		<li>
+			<a href="{% url 'priklad_1' %}">Stránka s receptem</a>
+			<em>Základní stránky bez použití stylů</em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_2' %}">Adventure time</a>
+			<em>Stránka nastylovaná CSS</em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_3' %}">Hraní si s úpravou textu</a>
+			<em>Obyčejná stránka, kde jsem si zkoušel různé formáty textu</em>
+		</li>
+		<li>
+			<a href="{%url 'priklad_4' %}">Osobní stránka #1.</a>
+			<em>Prezentační osobní stránka </em>
+		</li>
+		<li>
+			<a href="{%url 'priklad_5' %}">Osobní stránka #2.</a>
+			<em>Prezentační osobní stránka </em>
+		</li>
+		<li>
+			<a href="{%url 'priklad_6' %}">Osobní stránka #3.</a>
+			<em>Prezentační osobní stránka </em>
+		</li>
+		<li>
+			<a href="{%url 'priklad_7' %}">Osobní stránka #4.</a>
+			<em>Prezentační osobní stránka </em>
+		</li>
+		<li>
+			<a href="{%url 'priklad_8' %}">Osobní stránka #5.</a>
+			<em>Prezentační osobní stránka </em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_9' %}">Design Breakfast</a>
+			<em>Stránka s menu</em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_10' %}">Blog - Time For HTML</a>
+			<em>Komplexnější stránka</em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_11' %}">Layout stránky</a>
+			<em>Rozvržení layoutu stránky</em>
+		</li>
+		<li>
+			<a href="{% url 'priklad_12' %}">Domácí úloha #3 | Blog 1.</a>
+			<em>Rozvržení layoutu stránky</em>
+		</li>
+
+	</ol>
+
+	<h2>Obsah stránky</h2>
+	<ul>
+		<li><a href="#sekce-1">První sekce</a></li>
+		<li><a href="#sekce-2">Druhá sekce</a></li>
+		<li><a href="#sekce-3">Třetí sekce</a></li>
+		<li>Čtvrtá sekce</li>
+		<li>Páta sekce</li>
+	</ul>
+
+	<h2>Co potřebujeme</h2>
+	<ol>
+		<li>zelený salát</li>
+		<li>rajčata</li>
+		<li>majonézu</li>
+		<li>brambory</li>
+		<li>cibuli</li>
+	</ol>
+
+	<h2>Vyhledávače</h2>
+	<ul>
+		<li><a href="https://www.seznam.cz" target="_blank">Seznam</a></li>
+		<li><a href="https://www.google.com" target="_blank">Google</a></li>
+		<li><a href="https://www.bing.com" target="_blank">Bing</a></li>
+	</ul>
+
+	<h2>Zde si vyzkouším odkazy na stránky pomocí relativní cesty</h2>
+	<ul>
+		<li>
+			<a href="ep01.html">První epizoda</a>
+			<p>Bohužel to nejde je potřeba řešit routy, nemůžu naházet poueze html stránky do šablony</p>
+		</li>
+
+	</ul>
+
+	<h2 id = "sekce-1">Sekce 1</h2>
+	<p>Jelly-o liquorice jelly halvah topping <strong>biscuit chocolate</strong> fruitcake tiramisu. Candy jelly pie fruitcake topping
+		donut cake ice cream sesame snaps. Dragée lemon drops icing biscuit gingerbread oat cake. Cookie gingerbread
+		tart halvah tootsie roll. Pastry cheesecake jelly beans chupa chups chocolate ice cream jelly. Shortbread
+		dessert bonbon gummi bears macaroon macaroon icing cupcake pudding. Lollipop dragée cookie muffin bonbon
+		chocolate cake jujubes. Sugar plum apple pie donut marshmallow cake powder halvah pie. Brownie chocolate cake
+		sesame snaps oat cake sweet. Croissant jelly beans caramels cookie cupcake topping cake lemon drops. Oat cake
+		bear claw topping soufflé powder marshmallow marzipan dessert sweet roll. <em>Pudding liquorice chocolate caramels
+		marshmallow topping bear claw pastry.</em>
+		Candy jelly pie fruitcake topping
+		donut cake ice cream sesame snaps. Dragée lemon drops icing biscuit gingerbread oat cake. Cookie gingerbread
+		tart halvah tootsie roll. Pastry cheesecake jelly beans chupa chups chocolate ice cream jelly. Shortbread
+		dessert bonbon gummi bears macaroon macaroon icing cupcake pudding. Lollipop dragée cookie muffin bonbon
+		chocolate cake jujubes. Sugar plum apple pie donut marshmallow cake powder halvah pie. Brownie chocolate cake
+		sesame snaps oat cake sweet. Croissant jelly beans caramels cookie cupcake topping cake lemon drops. Oat cake
+		bear claw topping soufflé powder marshmallow marzipan dessert sweet roll.
+	</p>
+
+	<h2 id = "sekce-2">Sekce 2</h2>
+	<p>
+	Wafer carrot cake cake sesame snaps brownie icing jelly cupcake. Dragée chupa chups liquorice oat cake cotton candy
+	sweet lemon drops. Powder icing donut chupa chups sugar plum sesame snaps dessert halvah tiramisu. Cake chocolate
+	cake cookie chocolate cake ice cream carrot cake gummies. Cupcake powder icing jelly beans sugar plum powder
+	fruitcake pastry icing. Cotton candy chocolate powder chupa chups apple pie cake topping. Wafer sugar plum
+	gingerbread lollipop marshmallow. Dragée sweet cookie cupcake danish. Liquorice marzipan candy canes powder cookie.
+	Cheesecake brownie oat cake tart gummies sweet roll. Danish sugar plum chocolate toffee toffee cake chocolate toffee.
+	Marzipan chocolate halvah pudding gummies biscuit ice cream bonbon. Sugar plum icing apple pie sweet roll donut
+	pudding cake wafer shortbread. Oat cake liquorice cake tootsie roll shortbread.
+		Wafer carrot cake cake sesame snaps brownie icing jelly cupcake. Dragée chupa chups liquorice oat cake cotton candy
+	sweet lemon drops. Powder icing donut chupa chups sugar plum sesame snaps dessert halvah tiramisu. Cake chocolate
+	cake cookie chocolate cake ice cream carrot cake gummies. Cupcake powder icing jelly beans sugar plum powder
+	fruitcake pastry icing. Cotton candy chocolate powder chupa chups apple pie cake topping. Wafer sugar plum
+	gingerbread lollipop marshmallow. Dragée sweet cookie cupcake danish. Liquorice marzipan candy canes powder cookie.
+	Cheesecake brownie oat cake tart gummies sweet roll. Danish sugar plum chocolate toffee toffee cake chocolate toffee.
+	Marzipan chocolate halvah pudding gummies biscuit ice cream bonbon. Sugar plum icing apple pie sweet roll donut
+	pudding cake wafer shortbread. Oat cake liquorice cake tootsie roll shortbread.
+	</p>
+
+	<h2 id = "sekce-3">Sekce 3</h2>
+	<p>
+	Apple pie chocolate cake soufflé fruitcake pie. Cake pie croissant gummi bears pie pudding lollipop tiramisu
+	carrot cake. Biscuit pastry ice cream sweet roll marshmallow cookie brownie. Fruitcake pudding croissant danish
+	shortbread cookie. Bonbon lollipop tiramisu bonbon sweet roll gummi bears croissant. Cupcake muffin chocolate bar
+	macaroon jelly brownie chupa chups sesame snaps fruitcake. Gummies gingerbread sesame snaps lollipop lollipop
+	gingerbread. Donut powder cake dragée pie liquorice dragée. Jelly-o liquorice tiramisu bear claw candy chocolate
+	cake lemon drops. Dragée cheesecake candy marshmallow croissant shortbread. Bonbon lemon drops liquorice tiramisu
+	marshmallow gingerbread. Jelly beans soufflé jelly-o wafer tootsie roll.
+		Wafer carrot cake cake sesame snaps brownie icing jelly cupcake. Dragée chupa chups liquorice oat cake cotton candy
+	sweet lemon drops. Powder icing donut chupa chups sugar plum sesame snaps dessert halvah tiramisu. Cake chocolate
+	cake cookie chocolate cake ice cream carrot cake gummies. Cupcake powder icing jelly beans sugar plum powder
+	fruitcake pastry icing. Cotton candy chocolate powder chupa chups apple pie cake topping. Wafer sugar plum
+	gingerbread lollipop marshmallow. Dragée sweet cookie cupcake danish. Liquorice marzipan candy canes powder cookie.
+	Cheesecake brownie oat cake tart gummies sweet roll. Danish sugar plum chocolate toffee toffee cake chocolate toffee.
+	Marzipan chocolate halvah pudding gummies biscuit ice cream bonbon. Sugar plum icing apple pie sweet roll donut
+	pudding cake wafer shortbread. Oat cake liquorice cake tootsie roll shortbread.
+	</p>
+	<blockquote>
+		Vědomí, že brzy zemřu, je nejdůležitějším nástrojem, který mi pomáhá činit zásadní životní rozhodnutí.
+		Protože téměř všechno – veškerá vnější očekávání, veškerá pýcha, všechen strach z trapnosti
+		nebo neúspěchu – se tváří v tvář smrti ztratí a zůstává jen to, co je opravdu důležité. Vědomí, že zemřete,
+		je nejlepší způsob, jaký znám, jak nespadnout do pasti přesvědčení, že máte co ztratit.
+		Už teď jste nazí. Není důvod nejít za svým srdcem.
+
+	</blockquote>
+
+	<hr>
+	<p>
+		<a href="#nahoru">Hore</a>
+	</p>
+
+	<h2>Kontakty na mě</h2>
+	Mobil: <a href="tel: 724689120">724 689 120</a><br>
+	E-mail: <a href="mailto: scerba4@gmail.com">scerba4@gmail.com</a>
+
+</body>
+</html>

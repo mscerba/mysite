@@ -1,0 +1,185 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 19px/33px 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #5d5d5d;
+	background: #F7F7F7;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-size: 19px;
+	font-height: 33px;
+	font-weight: 300;
+	color: #5d5d5d;
+}
+
+
+h1 a {
+	color: #000;
+	font-size: 47px;
+	font-weight: 900;
+	text-decoration: 0
+}
+
+header h1 {
+	text-decoration: none;
+}
+
+header {
+	background: #fff;
+	margin: 0;
+	margin: 0 auto;
+	text-align: center;
+	padding: 55px 0 40px;
+	border-bottom: 1px solid #ccc;
+}
+
+.menu {
+	font-size: 19px;
+	font-weight: 300;
+	color: #5d5d5d;
+	font-style: italic;
+	list-style: none;
+	text-align: center;
+}
+
+.menu li {
+	display:inline-block;
+	text-decoration: none;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+.menu a:hover {
+	color: #fff;
+	font-weight: 700;
+	background: #d52349;
+	border-radius: 4px;
+}
+
+.content h1 {
+	font-size: 47px;
+	font-weight:700;
+	color: #252122;
+	margin: 0;
+}
+
+.content h2 {
+	font-size: 23px;
+	font-weight:300;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.content h3 {
+	font-size: 25px;
+	font-weight:700;
+	color: #252122;
+	margin: 60px 0 30px;
+}
+
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
+
+#wrapper {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+
+article {
+	width: 850px;
+	background: #fff;
+	float: left;
+	margin-top: 50px;
+}
+
+.content {
+	padding: 50px 30px;
+}
+
+aside h1 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #252122;
+}
+
+
+aside {
+	width: 420px;
+	float: right;
+	background: #FFF;
+	margin: 50px 0 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.block-aside {
+	padding: 30px 30px
+}
+
+.aside-button {
+	width: 200px;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 700;
+	color: #fff;
+	background: #252122;
+	text-decoration: none;
+	padding: 15px 20px;
+	border-radius: 7px;
+	display: block;
+	margin: 40px 0 10px 0;
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+aside li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0 10px 0;
+}
+
+aside li:last-child {
+	border: none;
+}
+
+aside a {
+	color: #d52349;
+}
+
+aside a:hover {
+	text-decoration: none;
+}
+
+footer p {
+	color: #fff;
+	background: #252122;
+	text-align: right;
+	padding: 20px 100px 20px 0;
+	margin: 50px 0 0 0;
+}
+

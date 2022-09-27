@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>John Smith</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+	<link rel="stylesheet" href="{% static 'css/style_priklad_7.css' %}" type="text/css">
+</head>
+
+<body>
+	<a href="{% url 'index' %}" class="align-left-home">> Domů</a>
+	<div class="main">
+		<h1>John Smith</h1>
+		<h2>Creative Consultant & Designer</h2>
+		<p class="about">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci animi aut corporis cum distinctio,
+			dolorem ea eligendi error fugiat iste consectetur.
+		</p>
+		<div class="secondary">
+			<section>
+				<h3>Working Experience</h3>
+				<block>
+					<h4>Project Manager</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit dolor explicabo id iure. </p>
+					<ul>
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						</li>
+						<li>
+							Architecto ipsum dolor sit amet, consectetur adipisicing elit.
+						</li>
+						<li>
+							Dignissimos inventore laboriosam maiores quia unde.
+						</li>
+					</ul>
+				</block>
+				<block>
+					<h4>Graphics Design Intern</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequatur cum esse et
+						iure iusto molestiae mollitia numquam omnis sint totam ut! Dignissimos inventore laboriosam
+						maiores quia unde. Explicabo, quod?
+					</p>
+				</block>
+			</section>
+
+			<section>
+				<h3>Education</h3>
+				<block>
+					<h4>Management of Creative Business Processes</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur at dolorum
+						eligendi et facere facilis fugit minus molestiae nemo pariatur perspiciatis placeat praesentium
+						provident quidem reprehenderit, repudiandae sint, tempora!
+					</p>
+				</block>
+			</section>
+		</div>
+	</div>
+</body>
+</html>

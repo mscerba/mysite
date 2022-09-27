@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Jonathan Doe</title>
+	<link rel="stylesheet" href="{% static 'css/style_priklad_4.css' %}" type="text/css">
+</head>
+<body>
+	{% load static %}
+
+	<a href="{% url 'index' %}" class="align-left">Domů</a>
+	<section class="aboutme">
+		<h2>ABOUT ME</h2>
+		<p class="podnadpis">A small introduction about self</p>
+
+		<img src="{% static 'html_kurz/jonathan_doe.jpeg' %}" alt="" class="img_circle">
+
+		<h3>Jonathan Doe</h3>
+		<h4>Webdesigner & Web Developer from Melbourne</h4>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. cillum
+			dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+			laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+
+		<p>
+			nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+			pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+			aliquip ex ea commodo consequat.
+		</p>
+
+		<a href="" class="btnDownload">Download Printable Resume</a>
+	</section>
+
+</body>
+</html>

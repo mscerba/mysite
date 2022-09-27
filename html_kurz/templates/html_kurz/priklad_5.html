@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+	<meta charset="UTF-8">
+	<title>Jonathan Doe</title>
+	<link rel="stylesheet" href="{% static 'css/style_priklad_5.css' %}" type="text/css">
+</head>
+<body>
+	<a href="{% url 'index' %}" class="align-left">Domů</a>
+	<img src="{% static 'html_kurz/jonathan_doe_5.png' %}" alt="">
+
+	<section class="education">
+		<div class="align-left">
+			<h1>EDUCATION</h1>
+			<div class="block">
+				<p><strong>Masters in Graphic Design</strong> with a minor in IT</p>
+				<p><em>Art Center College of Desing</em></p>
+				<p class="text">Current GPA 3.43 on a 4.00 scale</p>
+			</div>
+			<div class="block">
+				<p><strong>B.A. Degree in Graphic Design</strong></p>
+				<p><em>Minneapolis College of Art and Desing</em></p>
+				<p class="text">GPA 3.15 on a 4.00 scale</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="work">
+			<div class="align-left">
+				<h1>WORK</h1>
+				<div class="block">
+					<p><strong>Teaching Assistant</strong></p>
+					<p><em>Art Center College of Design</em></p>
+					<p class="text">Assisting Dr. Koals, Jennifer's "Intro to Typography"</p>
+				</div>
+			</div>
+	</section>
+	<p class="align-left">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ab atque beatae corporis delectus deleniti
+		deserunt eaque earum esse exercitationem itaque laboriosam magni minima nulla numquam optio porro quo voluptatem.
+		magni minima nulla numquam optio porro quo voluptatem.
+	</p>
+
+
+
+
+
+</body>
+</html>
